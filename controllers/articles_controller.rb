@@ -1,0 +1,7 @@
+require_relative 'application_controller'
+
+class ArticlesController < ApplicationController
+  def index
+    @title = 'All Articles new title'
+  end
+end
