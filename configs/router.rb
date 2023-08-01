@@ -35,7 +35,7 @@ class Router
 
   def build_response(env)
     path = env['REQUEST_PATH']
-    handler = @routes[path] || ->{ "no route found for #{path}" }
+    handler = @routes[path] || ->(_env) { "no route found for #{path}" }
     handler.call(env)
   end
 

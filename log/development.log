@@ -1,0 +1,23 @@
+I, [2023-08-01T12:03:03.833067 #55855]  INFO -- : GET: /articles/index
+I, [2023-08-01T12:03:04.013186 #55855]  INFO -- : GET: /articles/public/style.css
+E, [2023-08-01T12:03:04.013341 #55855] ERROR -- : wrong number of arguments (given 1, expected 0) (ArgumentError)
+/Users/dthtien/Workspace/simply/configs/router.rb:38:in `block in build_response'
+/Users/dthtien/Workspace/simply/configs/router.rb:39:in `build_response'
+/Users/dthtien/Workspace/simply/app.rb:15:in `call'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-3.0.8/lib/rack/static.rb:161:in `call'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-3.0.8/lib/rack/reloader.rb:47:in `call'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/configuration.rb:270:in `call'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/request.rb:100:in `block in handle_request'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/thread_pool.rb:344:in `with_force_shutdown'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/request.rb:99:in `handle_request'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/server.rb:443:in `process_client'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/server.rb:245:in `block in run'
+/Users/dthtien/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-6.3.0/lib/puma/thread_pool.rb:151:in `block in spawn_thread'
+I, [2023-08-01T12:05:07.820223 #55855]  INFO -- : GET: /articles/index
+I, [2023-08-01T12:06:16.362910 #60001]  INFO -- : GET: /articles/index
+I, [2023-08-01T12:06:16.493606 #60001]  INFO -- : GET: /articles/public/style.css
+I, [2023-08-01T12:06:20.011005 #60001]  INFO -- : GET: /articles/index
+I, [2023-08-01T12:06:20.132428 #60001]  INFO -- : GET: /articles/public/style.css
+I, [2023-08-01T12:06:25.708197 #60001]  INFO -- : GET: /articles/index_lalal
+I, [2023-08-01T12:06:30.227688 #60001]  INFO -- : GET: /articles/index
+I, [2023-08-01T12:06:30.404082 #60001]  INFO -- : GET: /articles/public/style.css
